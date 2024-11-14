@@ -1,0 +1,130 @@
+* {
+    font-family: "Poppins"sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.Link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875;
+    color: #17233D; 
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header {
+    background: #27860a;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-family: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer
+}
+
+img {
+    margin: 163px 0 0 123px; 
+    display: inline-block;  
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+P {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    text-align: justify;
+    margin-top: 47px;
+    margin-bottom: 55px;
+     
+}
+
+.button-main{
+    font-weight:500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 1300px){
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    div {
+        display: block;
+        height: auto;
+        width: auto;
+        background: #ffffff ;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        margin: 68px 50px 20px 0px;
+        letter-spacing: 0.6px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px -14px;
+        width: 304px;
+        height: 165px;
+        text-align: justify;
+        line-height: 33px;
+
+    }
+
+    img {
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin: 380px 0px 29px 71px;
+    }
+
+    .button-main {
+        margin: 25px 94px 27px 84px;
+    }
+    
+    }
+
+
